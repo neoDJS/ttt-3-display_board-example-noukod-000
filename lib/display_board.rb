@@ -2,10 +2,9 @@
 def display_board
     sLine = ""
     count = 0
-    board = Array.new(9, " ")
 
     3.times{
-  	puts tab_line(count, board)
+  	puts tab_line
   	if count < 2
   		puts "-----------"
   	end
