@@ -8,7 +8,7 @@ def display_board
     	if count < 2
     		puts "-----------"
     	end
-      count++
+      count += 1
     }
 end
 
