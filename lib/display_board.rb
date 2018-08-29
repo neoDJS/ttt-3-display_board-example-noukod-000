@@ -4,10 +4,10 @@ def display_board
     count = 0
 
     3.times{
-  	puts tab_line
-  	if count < 2
-  		puts "-----------"
-  	end
+    	puts tab_line
+    	if count < 2
+    		puts "-----------"
+    	end
     }
 end
 
